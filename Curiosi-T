@@ -6,75 +6,30 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="blog_css.css" rel="stylesheet" type="text/css" />
 
-    <style>
-
-	
-
-	.title{
-	 	margin: 0px 0px 0px 0px;
-	 	color: DeepSkyBlue;
-		width: 470px;
-		position: relative;
-	 	top: -10px;
-		left: 425px;
-		border: 5px pink inset;
-		border-radius: 10px;
-	}
-	
-	#header{
-	 	font-size: 200%;
-	}
-	h1, h2{text-align: center;}
-
-	#search{
-		position:absolute;
-		top:-17px;
-		left:1018px;
-		border:5px pink inset;
-		border-radius:10px;
-	}
-
-	body{
-		background-color: black;
-	}
-	
-	h3, h4{ text-decoration: underline;}
-
-	p, h2, h3, ol, form{
-		color:white;
-	}
-
-	p,ol{font-size: 1em;}
-
-	hr{border:5px pink inset;}
-
-	a{color:blue;}
-	a:visited{color:green;}
-	a:hover{font-size:27px;}
-    </style>
-     
 </head>
 
 <main>
 <body>
-     <div>    
+     <div>   
+	<section class="center"> 
 	<h1 class="title" id ="header"> Curiosi-T </h1>
     
     	<h2 class="title" > I Blog About What I'm Interested In </h2>
-	<img class="title" src = "images/SuperMario.jpg"/ width ="400" height ="200">
+	<img class="title" id="mario" src = "images/SuperMario.jpg"/ width ="400" height ="200">
 	<h3 id="search">Search <input type = "email" placeholder = "type here.."></h3>
      	
-	</div>
+	</section>
 	<hr/>
 
-     <div>
+     <section>
    	<h3> The Future of Boston Celtics </h3>
     		<p> The Celtics will <strong><u>win</u></strong> the next championship. <br/>Buckle Up!!!</p>
  
-     </div>
+     </section>
 
-     <div>   
+     <section class="center">   
    	<h3>My Investments </h3>
 		<ol>
 	    	   <li>Tesla</li>
@@ -89,9 +44,9 @@
 	     	   <li>Solana</li>
 	 	</ol>
      
-     </div>
+     </section>
 
-     <div>
+    <section class="center">
     <form>
 	<h3> Form </h3>
 	
@@ -120,12 +75,14 @@
 
     <form>
 
-     </div>
+     
 
-<div>
 	<p><a href ="https://www.coinbase.com/" target = "_blank" rel = "noopener noreferrer">Coinbase</a></p>
 	<p><a href = "helloworld.html" target = "_blank" rel ="noopener noreferrer"> Open Internal Link/File</a></p>
+    </section>
 </div>
 </body>
 </main>
 </html>
+
+
