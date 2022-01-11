@@ -1,0 +1,49 @@
+<style>
+	#mario{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title{
+	 	margin: 0px;
+	 	color: DeepSkyBlue;
+		width: 470px;
+		position: relative;
+	 	top: -10px;
+		left: 425px;
+		border: 5px pink inset;
+		border-radius: 10px;
+	}
+	
+	#header{
+	 	font-size: 200%;
+	}
+	h1, h2{text-align: center;}
+
+	#search{
+		position:absolute;
+		top:-17px;
+		left:1018px;
+		border:5px pink inset;
+		border-radius:10px;
+	}
+
+	body{
+		background-color: black;
+	}
+	
+	h3, h4{ text-decoration: underline;}
+
+	p, h2, h3, ol, form{
+		color:white;
+	}
+
+	p,ol{font-size: 1em;}
+
+	hr{border:5px pink inset;}
+
+	a{color:blue;}
+	a:visited{color:green;}
+	a:hover{font-size:27px;}
+
+</style>
